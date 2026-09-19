@@ -1,0 +1,99 @@
+description: Ultralytics YOLOv8s-seg model trained on /content/tree-row-detection-coco-3/data.yaml
+author: Ultralytics
+date: '2026-05-27T07:56:24.475668'
+version: 8.4.56
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: 00person
+  1: 01bicycle
+  2: 02car
+  3: 03motorcycle
+  4: 04airplane
+  5: 05bus
+  6: 06train
+  7: 07truck
+  8: 08boat
+  9: 09traffic-light
+  10: 10fire-hydrant
+  11: 11stop-sign
+  12: 12parking-meter
+  13: 13bench
+  14: 14bird
+  15: 15cat
+  16: 16dog
+  17: 17horse
+  18: 18sheep
+  19: 19cow
+  20: 20elephant
+  21: 21bear
+  22: 22zebra
+  23: 23giraffe
+  24: 24backpack
+  25: 25umbrella
+  26: 26handbag
+  27: 27tie
+  28: 28suitcase
+  29: 29frisbee
+  30: 30skis
+  31: 31snowboard
+  32: 32sports-ball
+  33: 33kite
+  34: 34baseball-bat
+  35: 35baseball-glove
+  36: 36skateboard
+  37: 37surfboard
+  38: 38tennis-racket
+  39: 39bottle
+  40: 40wine-glass
+  41: 41cup
+  42: 42fork
+  43: 43knife
+  44: 44spoon
+  45: 45bowl
+  46: 46banana
+  47: 47apple
+  48: 48sandwich
+  49: 49orange
+  50: 50broccoli
+  51: 51carrot
+  52: 52hot-dog
+  53: 53pizza
+  54: 54donut
+  55: 55cake
+  56: 56chair
+  57: 57couch
+  58: 58potted-plant
+  59: 59bed
+  60: 60dining-table
+  61: 61toilet
+  62: 62tv
+  63: 63laptop
+  64: 64mouse
+  65: 65remote
+  66: 66keyboard
+  67: 67cell-phone
+  68: 68microwave
+  69: 69oven
+  70: 70toaster
+  71: 71sink
+  72: 72refrigerator
+  73: 73book
+  74: 74clock
+  75: 75vase
+  76: 76scissors
+  77: 77teddy-bear
+  78: 78hair-drier
+  79: 79toothbrush
+  80: 80crop-row
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false

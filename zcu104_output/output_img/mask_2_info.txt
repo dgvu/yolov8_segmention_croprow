@@ -1,0 +1,13 @@
+label=80
+name=crop-row
+score=0.737503
+box_x=1094
+box_y=0
+box_w=513
+box_h=559
+mask_w=1920
+mask_h=1080
+full_mask_nonzero=144672
+cropped_mask_nonzero=73109
+proto_min=4.86647e-08
+proto_max=0.999639

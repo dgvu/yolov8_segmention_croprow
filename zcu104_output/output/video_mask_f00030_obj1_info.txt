@@ -1,0 +1,12 @@
+frame_id=30
+label=80
+name=crop-row
+score=0.947579
+box_x=951
+box_y=0
+box_w=302
+box_h=1077
+mask_w=1920
+mask_h=1080
+full_mask_nonzero=476116
+cropped_mask_nonzero=187886
